@@ -3,7 +3,7 @@ layout: post
 title: My Initial Blog
 ---
 
-![Hacktiv8 Logo](/images/Logo-Hacktiv8-bordered.png)
+![Hacktiv8 Logo](https://www.indosmartdigital.com/foto_berita/65hacktiv8.jpg)
 
 Hacktiv8 is a bootcamp that will teach and guide you through the process of becoming (of course) a programmer. No, hold on that initial thought that you will hear a lengthy lecture on a class with air-conditioner(s) that made it felt like time to sleep.
 
