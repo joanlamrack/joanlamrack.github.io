@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Initial Blog
+title: What is Hacktiv8?
 ---
 
 ![Hacktiv8 Logo](https://www.indosmartdigital.com/foto_berita/65hacktiv8.jpg)
