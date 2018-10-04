@@ -12,8 +12,16 @@ Wow, I haven't updated a single post in 2 months. To catch you up to speed, here
 
 Then we here are at Phase 3! React, React Native, GraphQL, D3.js are what we learnt here. Two weeks passed so fast. By the end of second week, we are preparing for the Final Project.
 
-# The Final Project, The smart parcel
+# The Final Project, The Smart parcel
 
 In short, we got less than one week to finish the project. The Idea was, to have a parcel box that when is shook hard enough, will send a gps location to the admin desk. For this, I used two database; Firebase and MongoDB Atlas. Firebase database acts as a filter for updating position in the main server.
 
-But the most challenge was the IOT hardwares. We used arduino and some modules, but at the end the Wifi module doesn't work, so we switched to raspberry pi in the last 3 days.
+But the most challenge was the IOT hardwares. We used arduino and some modules, but at the end the Wifi module doesn't work, so we switched to raspberry pi in the last 3 days. Though we had finished the 60% of the server by the second day, the hardware and technical issues with the React Native updates kicked back some of our schedule.
+
+Not to mention, I decided to implemented the CI/CD service, codeship. The decision were simple; it would accelerate a lot of our workflow. From github, all I had to do is just setup the test (with mocha and chai), then setup Google App Engine to make a flexible environment.
+
+![Codeship](https://www.cloudbees.com/sites/default/files/codeship-by-cloudbees.png)
+
+Then each time I pushed into a branch, the codeship will test the current state of the branch. If the test passed, the we can merge it into the designated branch for Codeship, the there it would be tested again and pushed into the Google App Engine.
+
+## Lesson learned
