@@ -25,3 +25,12 @@ Not to mention, I decided to implemented the CI/CD service, codeship. The decisi
 Then each time I pushed into a branch, the codeship will test the current state of the branch. If the test passed, the we can merge it into the designated branch for Codeship, the there it would be tested again and pushed into the Google App Engine.
 
 ## Lesson learned
+
+- Managing your own expectation of in just a week to deliver MVP is not easy. It requires a lot of sense and planning. I esspecially can relate to this since I am a perfectionists!
+- Be prepare for the worst. We had our share on that (which you can see in the demo ;) )
+
+## Closing
+
+When words is not enough, you can also checkout our demo video here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2jD8G2s8yA8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
