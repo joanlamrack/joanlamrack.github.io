@@ -27,7 +27,7 @@ Then each time I pushed into a branch, the codeship will test the current state 
 ## Lesson learned
 
 - Managing your own expectation of in just a week to deliver MVP is not easy. It requires a lot of sense and planning. I esspecially can relate to this since I am a perfectionists!
-- Be prepare for the worst. We had our share on that (which you can see in the demo ;) )
+- Be prepare for the worst. We had our share on that--which you can see in the demo ;) --
 
 ## Closing
 
