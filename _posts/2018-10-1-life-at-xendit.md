@@ -3,7 +3,7 @@ layout: post
 title: Post Hacktiv8 Life and Xendit
 ---
 
-![Xendit, the Silicon Valley Startup](https://dashboard.xendit.co/images/xenditlogo.png)
+![Xendit, the Silicon Valley Startup](https://dashboard.xendit.co/images/xendit-blue-logo.svg)
 
 Within days after our graduation from Hacktiv8, I got an interview offer from several startups. One of them in particular in Xendit.
 
