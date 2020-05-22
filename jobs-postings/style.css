@@ -28,6 +28,27 @@
     opacity: 1;
 }
 
+#joblisting > #jobsitem > #showtext {
+    background-color: #fa7b05;
+    flex: 1;
+    text-align: center;
+    opacity: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+}
+
+#showtext > a {
+    flex: 1;
+    margin: auto;
+}
+
+#joblisting > #jobsitem:hover #showtext {
+    opacity: 1;
+    cursor: pointer;
+}
+
 #sidelink {
     margin: auto;
 }
@@ -54,6 +75,10 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-#text, #text > p {
+#text > p {
     color: #616362;
+}
+
+#text {
+    display: none;
 }
