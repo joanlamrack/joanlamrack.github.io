@@ -16,10 +16,8 @@ The first thing is that turns out coding at work require the individual to be mi
 So I would say that coding, is not equal to an isolated kind of job anymore (or is it still?)
 
 The other thing is that the problem set given will be more abstract, and new sets of soft skills emerged. Mostly it depends on the how the company works. Based on my experience, softskills that I developed for example:
-- Reading and Understanding Codebases
-    As the new programmer or software engineering, you'll be more likely spend time in the first or three months understanding the current implementation of the system. Indirectly, you'll also learn about the business flow itself.
-- Maintaining codebases (at least years of lifespan)
-    Maintaining codebase require you to understand the purpose of the codebase itself, and some sort of discipline to keep the code clean according to the company standard.
-- Giving constructive feedback during code review
-- Collaborating with other fellow programmers
-- Mentoring newcomers
+- **Reading and Understanding Codebases**: As the new programmer or software engineering, you'll be more likely spend time in the first or three months understanding the current implementation of the system. Indirectly, you'll also learn about the business flow itself.
+- **Maintaining codebases (at least years of lifespan)**: Maintaining codebase require you to understand the purpose of the codebase itself, and some sort of discipline to keep the code clean according to the company standard.
+- **Giving constructive feedback during code review**
+- **Collaborating with other fellow programmers**
+- **Mentoring newcomers**
