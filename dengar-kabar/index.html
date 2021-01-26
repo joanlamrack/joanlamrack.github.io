@@ -1,149 +1,1621 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <meta charset = "utc8">
-        <meta name = "viewport" content="width=device-width">
-        <title>Kompas, Amanah Rakyat Indonesia</title>
-        <link href="custom.css" rel="stylesheet" type="text/css" />
-        <link href="normalize.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:200,300,700|Roboto:300,300i,400,400i,500,700,700i">
-    </head>
-    <body>
-        <div id="header">
-            <div id="header-1">
-                <div class="middle-container row-view">
-                    <ul class="row-item left">
-                        <li class="row-item nav-link">HARIAN KOMPAS</li>
-                        <li class="row-item nav-link">KOMPAS TV</li>
-                        <li class="row-item nav-link">LIVE RADIO</li>
-                    </ul>
-                    <ul class="row-item right">
-                        <li class="row-item nav-link">KOMPASIANA.COM</li>
-                        <li class="row-item nav-link">KOMPASKARIER.COM</li>
-                        <li class="row-item nav-link">GRAMEDIA.COM</li>
-                        <li class="row-item nav-link">GRAMEDIA DIGITAL</li>
-                        <li class="row-item nav-link">GRIDOTO.COM</li>
-                        <li class="row-item nav-link">BOLASPORT.COM</li>
-                        <li class="row-item nav-link">GRID.ID</li>
-                        <li class="row-item nav-link">KONTAN.CO.ID</li>
-                        <li class="row-item nav-link">KGMEDIA.ID</li>
-                    </ul>
-                </div>
-            </div>
-            <div id="header-2">
-                <div class="middle-container" class="row-view">
-                    <div id="header-wrapper" class="row-item">
-                            <div id="logo-and-certification" class="row-view left">
-                                <div id="logo" class="row-item">
-                                    <a href="https://www.kompas.com">
-                                        <img src="https://asset.kompas.com/data/2017/wp/images/logo-kompascom-jmd.png?v=2" alt="25 Tahun Kompas.com, Melihat Harapan" id="anni25-img">
-                                    </a>
-                                </div>
-                                <div id="certification" class="row-item">
-                                    <a href="https://nasional.kompas.com/read/2018/10/17/08133311/kompascom-tersertifikasi-dalam-jaringan-internasional-penguji-informasi?_ga=2.193080750.2083279451.1599994754-1888169883.1596029483" data-type="tooltips" data-placement="right" data-text="International Fact-Checking Network " class="logo__awards__link" tabindex="0">
-                                        <img class="lozad fade" data-src="https://asset.kompas.com/data/2017/wp/images/logo-ifcn-small.png" alt="" src="https://asset.kompas.com/data/2017/wp/images/logo-ifcn-small.png" data-loaded="true">
-                                    </a>
-                                </div>
-                            </div>
-                            <div id="search-and-login" class="row-view">
-                                <div class="row-item" id="search">
-                                    <form>
-                                        <input type="text" placeholder="Search" class="search-field">
-                                        <input type="submit" id="search-submit">
-                                        <span class="search--icon">
-                                            <svg class="icon icon-search" title="icon-search">
-                                                <use xlink:href="#icon-search"></use>
-                                            </svg>
-                                        </span>
-                                    </form>                                    
-                                </div>
-                                <div class="row-item" id="epaper">
-                                    <a>
-                                        Baca Harian Kompos
-                                    </a>
-                                </div>
-                                <div class="row-item" id="login">                                    
-                                    <a>
-                                        Masuk
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </div>
-            <div id="header-3">
-                <div class="middle-container row-view">
-                    <ul id="section-row">
-                        <li class="row-item nav-link nav-link-topic">NEWS</li>
-                        <li class="row-item nav-link nav-link-topic">TREN</li>
-                        <li class="row-item nav-link nav-link-topic">HYPE</li>
-                        <li class="row-item nav-link nav-link-topic">FOOD</li>
-                        <li class="row-item nav-link nav-link-topic">MONEY</li>
-                        <li class="row-item nav-link nav-link-topic">BOLA</li>
-                        <li class="row-item nav-link nav-link-topic">TEKNO</li>
-                        <li class="row-item nav-link nav-link-topic">SAINS</li>
-                        <li class="row-item nav-link nav-link-topic">OTOMOTIF</li>
-                        <li class="row-item nav-link nav-link-topic">LIFESTYLE</li>
-                        <li class="row-item nav-link nav-link-topic">HEALTH</li>
-                        <li class="row-item nav-link nav-link-topic">PROPERTI</li>
-                        <li class="row-item nav-link nav-link-topic">TRAVEL</li>
-                        <li class="row-item nav-link nav-link-topic">EDUKASI</li>
-                        <li class="row-item nav-link nav-link-topic">JEO</li>
-                        <li class="row-item nav-link nav-link-topic">KOLOM</li>
-                        <li class="row-item nav-link nav-link-topic">IMAGES</li>
-                        <li class="row-item nav-link nav-link-topic">VIK</li>
-                    </ul>
-                </div>
+
+<head>
+    <meta charset="utc8">
+    <meta name="viewport" content="width=device-width">
+    <title>Kompas, Amanah Rakyat Indonesia</title>
+    <link href="custom.css" rel="stylesheet" type="text/css" />
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto+Condensed:200,300,700|Roboto:300,300i,400,400i,500,700,700i">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.6.0/slick/slick.css" />
+</head>
+
+<body>
+    <div id="header">
+        <div id="header-1">
+            <div class="middle-container row-view">
+                <ul class="row-item left">
+                    <li class="row-item nav-link">HARIAN KOMPAS</li>
+                    <li class="row-item nav-link">KOMPAS TV</li>
+                    <li class="row-item nav-link">LIVE RADIO</li>
+                </ul>
+                <ul class="row-item right">
+                    <li class="row-item nav-link">KOMPASIANA.COM</li>
+                    <li class="row-item nav-link">KOMPASKARIER.COM</li>
+                    <li class="row-item nav-link">GRAMEDIA.COM</li>
+                    <li class="row-item nav-link">GRAMEDIA DIGITAL</li>
+                    <li class="row-item nav-link">GRIDOTO.COM</li>
+                    <li class="row-item nav-link">BOLASPORT.COM</li>
+                    <li class="row-item nav-link">GRID.ID</li>
+                    <li class="row-item nav-link">KONTAN.CO.ID</li>
+                    <li class="row-item nav-link">KGMEDIA.ID</li>
+                </ul>
             </div>
         </div>
-        <div id="general-content">
-            <div id="headline">
-                <div class="middle-container row-view flex">
-                        <div class="headline row-item">
-                            <div class="headline-big">BIG Headlines</div>
-                            <div class="headline-smalls">small Headlines</div>
+        <div id="header-2">
+            <div class="middle-container" class="row-view">
+                <div id="header-wrapper" class="row-item">
+                    <div id="logo-and-certification" class="row-view left">
+                        <div id="logo" class="row-item">
+                            <a href="https://www.kompas.com">
+                                <img src="https://asset.kompas.com/data/2017/wp/images/logo-kompascom-jmd.png?v=2"
+                                    alt="25 Tahun Kompas.com, Melihat Harapan" id="anni25-img">
+                            </a>
                         </div>
-                        <div class="wrapper row-item">
-                            <div class="teaser">Follow Us</div>
+                        <div id="certification" class="row-item">
+                            <a href="https://nasional.kompas.com/read/2018/10/17/08133311/kompascom-tersertifikasi-dalam-jaringan-internasional-penguji-informasi?_ga=2.193080750.2083279451.1599994754-1888169883.1596029483"
+                                data-type="tooltips" data-placement="right"
+                                data-text="International Fact-Checking Network " class="logo__awards__link"
+                                tabindex="0">
+                                <img class="lozad fade"
+                                    data-src="https://asset.kompas.com/data/2017/wp/images/logo-ifcn-small.png" alt=""
+                                    src="https://asset.kompas.com/data/2017/wp/images/logo-ifcn-small.png"
+                                    data-loaded="true">
+                            </a>
+                        </div>
+                    </div>
+                    <div id="search-and-login" class="row-view">
+                        <div class="row-item" id="search">
+                            <form>
+                                <input type="text" placeholder="Search" class="search-field">
+                                <input type="submit" id="search-submit">
+                                <span class="search--icon">
+                                    <svg class="icon icon-search" title="icon-search">
+                                        <use xlink:href="#icon-search"></use>
+                                    </svg>
+                                </span>
+                            </form>
+                        </div>
+                        <div class="row-item" id="epaper">
+                            <a>
+                                Baca Harian Kompos
+                            </a>
+                        </div>
+                        <div class="row-item" id="login">
+                            <a>
+                                Masuk
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="highlight-row">
-                <div class="middle-container">
-                    HIGHLIGHT
-                </div>
+        </div>
+        <div id="header-3">
+            <div class="middle-container row-view">
+                <ul id="section-row">
+                    <li class="row-item nav-link nav-link-topic">NEWS</li>
+                    <li class="row-item nav-link nav-link-topic">TREN</li>
+                    <li class="row-item nav-link nav-link-topic">HYPE</li>
+                    <li class="row-item nav-link nav-link-topic">FOOD</li>
+                    <li class="row-item nav-link nav-link-topic">MONEY</li>
+                    <li class="row-item nav-link nav-link-topic">BOLA</li>
+                    <li class="row-item nav-link nav-link-topic">TEKNO</li>
+                    <li class="row-item nav-link nav-link-topic">SAINS</li>
+                    <li class="row-item nav-link nav-link-topic">OTOMOTIF</li>
+                    <li class="row-item nav-link nav-link-topic">LIFESTYLE</li>
+                    <li class="row-item nav-link nav-link-topic">HEALTH</li>
+                    <li class="row-item nav-link nav-link-topic">PROPERTI</li>
+                    <li class="row-item nav-link nav-link-topic">TRAVEL</li>
+                    <li class="row-item nav-link nav-link-topic">EDUKASI</li>
+                    <li class="row-item nav-link nav-link-topic">JEO</li>
+                    <li class="row-item nav-link nav-link-topic">KOLOM</li>
+                    <li class="row-item nav-link nav-link-topic">IMAGES</li>
+                    <li class="row-item nav-link nav-link-topic">VIK</li>
+                </ul>
             </div>
-            <div id="break-row">
-                <div class="middle-container">
-                    BREAK ROW
+        </div>
+    </div>
+    <div id="general-content">
+        <div id="headline">
+            <div class="middle-container row-view margin-top-20px flex clearfix">
+                <div class="headline row-item">
+                    <div class="headline-big clearfix">
+                        <ul class="js-hl-big headline-big-row clearfix">
+                            <li class="headline-big-item">
+                                <a class="headline-big-link">
+                                    <div class="headline-subtitle">Headline</div>
+                                    <div class="headline-big-img">
+                                        <img class="lozad fade"
+                                            data-src="https://asset.kompas.com/crops/2fSD6AiYkRHzmtnmnLiEgnW2BaU=/0x0:0x0/740x500/data/photo/2020/10/12/5f841a67f3072.jpg"
+                                            alt="Kala BEM SI Sindir Jokowi Kabur, Tuding Pemerintah Putar Balikkan Narasi"
+                                            src="https://asset.kompas.com/crops/bbptnzthKgxQXmS00NipiFgKKHU=/0x74:689x533/740x500/data/photo/2020/10/15/5f87a79884bfc.jpg"
+                                            data-loaded="true">
+                                    </div>
+                                    <div class="headline-big-box">
+                                        <h2 class="headline-big-title">Newcastle Vs Man United, Rekor Penalti Bruno
+                                            Tercoreng, MU Tetap Menang</h2>
+                                        <div class="headline-big-date">18/10/2020, 04:20 WIB</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="headline-big-item">
+                                <a class="headline-big-link">
+                                    <div class="headline-subtitle">Headline</div>
+                                    <div class="headline-big-img">
+                                        <img class="lozad fade"
+                                            data-src="https://asset.kompas.com/crops/I7EgNe7Du7l5bo8EYNKNXDj9lVU=/79x0:669x393/740x500/data/photo/2020/10/18/5f8b35db2017f.jpg"
+                                            alt="SBY Jelaskan Alasan Partai Demokrat Tolak Pengesahan RUU Cipta Kerja"
+                                            src="https://asset.kompas.com/crops/I7EgNe7Du7l5bo8EYNKNXDj9lVU=/79x0:669x393/740x500/data/photo/2020/10/18/5f8b35db2017f.jpg"
+                                            data-loaded="true">
+                                    </div>
+                                    <div class="headline-big-box">
+                                        <h2 class="headline-big-title">Terpisah 20 Tahun, Kembar Trena Treni Kembali
+                                            Bertemu karena TikTok</h2>
+                                        <div class="headline-big-date">18/10/2020, 01:40 WIB</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="headline-big-item">
+                                <a class="headline-big-link">
+                                    <div class="headline-subtitle">Headline</div>
+                                    <div class="headline-big-img">
+                                        <img class="lozad fade"
+                                            data-src="https://asset.kompas.com/crops/I1vHrAp1_qYpuBiCUPUBDaxsFMA=/25x0:4096x2714/185x124/data/photo/2020/02/10/5e41041aa8167.jpg"
+                                            alt="Hasil Klasemen Usai MotoGP Emilia Romagna, Dovi Teratas Unggul 1 Poin"
+                                            src="https://asset.kompas.com/crops/2fSD6AiYkRHzmtnmnLiEgnW2BaU=/0x0:0x0/740x500/data/photo/2020/10/12/5f841a67f3072.jpg"
+                                            data-loaded="true">
+                                    </div>
+                                    <div class="headline-big-box">
+                                        <h2 class="headline-big-title">Warga Jakarta Diminta Tak Terlena dengan PSBB
+                                            Transisi</h2>
+                                        <div class="headline-big-date">13/10/2020, 06:31 WIB</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="headline-big-item">
+                                <a class="headline-big-link">
+                                    <div class="headline-subtitle">Headline</div>
+                                    <div class="headline-big-img">
+                                        <img class="lozad fade"
+                                            data-src="https://asset.kompas.com/crops/12mlhZfiAalpnSBLOnP5kHr5Lbg=/240x0:1348x739/740x500/data/photo/2019/05/22/2810962214.png"
+                                            alt="Kala BEM SI Sindir Jokowi Kabur, Tuding Pemerintah Putar Balikkan Narasi"
+                                            src="https://asset.kompas.com/crops/h-WNlS6UIRuQiRWiV2z1yMia7BY=/0x0:780x520/740x500/data/photo/2020/10/15/5f8870913dc54.jpg"
+                                            data-loaded="true">
+                                    </div>
+                                    <div class="headline-big-box">
+                                        <h2 class="headline-big-title">Warga Jakarta Diminta Tak Terlena dengan PSBB
+                                            Transisi</h2>
+                                        <div class="headline-big-date">13/10/2020, 06:31 WIB</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="headline-smalls clearfix">
+                        <ul class="headline-thumb-row clearfix js-hl-thumb">
+                            <li class="headline-item">
+                                <div class="headline-image">
+                                    <img class="lozad fade"
+                                        data-src="https://asset.kompas.com/crops/vd8iy9bsa_siMj71t8b0gbBAwns=/0x0:999x666/185x124/data/photo/2020/09/11/5f5ac6d1a3de2.jpg"
+                                        alt="UPDATE:  Bertambah 3.989, Kasus Covid-19 di Indonesia Capai 244.676"
+                                        src="https://asset.kompas.com/crops/vd8iy9bsa_siMj71t8b0gbBAwns=/0x0:999x666/185x124/data/photo/2020/09/11/5f5ac6d1a3de2.jpg"
+                                        data-loaded="true">
+                                </div>
+                                <a class="headline-thumb-link"
+                                    href="https://nasional.kompas.com/read/2020/09/20/15255191/update-bertambah-3989-kasus-covid-19-di-indonesia-capai-244676"
+                                    tabindex="0">
+                                    <h2 class="headline-thumb-title">UPDATE: Bertambah 3.989, Kasus Covid-19 di
+                                        Indonesia Capai 244.676</h2>
+                                </a>
+                            </li>
+                            <li class="headline-item">
+                                <div class="headline-image">
+                                    <img class="lozad fade"
+                                        data-src="https://asset.kompas.com/crops/I1vHrAp1_qYpuBiCUPUBDaxsFMA=/25x0:4096x2714/185x124/data/photo/2020/02/10/5e41041aa8167.jpg"
+                                        alt="Hasil Klasemen Usai MotoGP Emilia Romagna, Dovi Teratas Unggul 1 Poin"
+                                        src="https://asset.kompas.com/crops/I1vHrAp1_qYpuBiCUPUBDaxsFMA=/25x0:4096x2714/185x124/data/photo/2020/02/10/5e41041aa8167.jpg"
+                                        data-loaded="true">
+                                </div>
+                                <a class="headline-thumb-link"
+                                    href="https://otomotif.kompas.com/read/2020/09/20/200116915/hasil-klasemen-usai-motogp-emilia-romagna-dovi-teratas-unggul-1-poin"
+                                    tabindex="0">
+                                    <h2 class="headline-thumb-title">Hasil Klasemen Usai MotoGP Emilia Romagna, Dovi
+                                        Teratas Unggul 1 Poin</h2>
+                                </a>
+                            </li>
+                            <li class="headline-item">
+                                <div class="headline-image">
+                                    <img class="lozad fade"
+                                        data-src="https://asset.kompas.com/crops/BjJBGoatj7tbqPgkmAl2XYncUIs=/38x0:1658x1080/185x124/data/photo/2020/09/20/5f674c75bb28b.jpg"
+                                        alt="MotoGP Emilia Romagna: Sempat Asapi Vinales, Bagnaia Akhiri Balapan dengan Kekecewaan"
+                                        src="https://asset.kompas.com/crops/BjJBGoatj7tbqPgkmAl2XYncUIs=/38x0:1658x1080/185x124/data/photo/2020/09/20/5f674c75bb28b.jpg"
+                                        data-loaded="true">
+                                </div>
+                                <a class="headline-thumb-link"
+                                    href="https://www.kompas.com/motogp/read/2020/09/20/20054118/motogp-emilia-romagna-sempat-asapi-vinales-bagnaia-akhiri-balapan-dengan"
+                                    tabindex="0">
+                                    <h2 class="headline-thumb-title">MotoGP Emilia Romagna: Sempat Asapi Vinales,
+                                        Bagnaia Akhiri Balapan dengan Kekecewaan</h2>
+                                </a>
+                            </li>
+                            <li class="headline-item">
+                                <div class="headline-image">
+                                    <img class="lozad fade"
+                                        data-src="https://asset.kompas.com/crops/G48oNddia7qa4JZjObhRj2979aM=/0x0:0x0/185x124/data/photo/2020/09/17/5f634140c1ec4.jpg"
+                                        alt="Anggota TNI yang Menabrak Briptu Andry Telah Ditetapkan sebagai Tersangka"
+                                        src="https://asset.kompas.com/crops/G48oNddia7qa4JZjObhRj2979aM=/0x0:0x0/185x124/data/photo/2020/09/17/5f634140c1ec4.jpg"
+                                        data-loaded="true">
+                                </div>
+                                <a class="headline-thumb-link"
+                                    href="https://megapolitan.kompas.com/read/2020/09/20/20111771/anggota-tni-yang-menabrak-briptu-andry-telah-ditetapkan-sebagai-tersangka"
+                                    tabindex="0">
+                                    <h2 class="headline-thumb-title">Anggota TNI yang Menabrak Briptu Andry Telah
+                                        Ditetapkan sebagai Tersangka</h2>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div id="latest">
-                <div class="middle-container">
-                    LATEST
-                </div>
-            </div>
-            <div id="break-row">
-                <div class="middle-container">
-                    BREAK ROW
-                </div>
-            </div>
-            <div id="latest">
-                <div class="middle-container">
-                    LATEST LAST
-                </div>
-            </div>
-            <div id="explore">
-                <div class="middle-container">
-                    EXPLORE
-                </div>
-            </div>
-            <div id="footer">
-                <div class="middle-container">
-                    FOOTER
+                <div class="outerwrapper row-item">
+                    <div class="wrapper">
+                        <div class="teaser">Follow Us</div>
+                    </div>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+    <div class="highlight-row middle-container row-view flex clearfix">
+        <div class="highlight-section row-item">
+            <div class="title clearfix">
+                <h2 class="title-content">Sorotan</h2>
+            </div>
+            <div class="outer-article-row clearfix">
+                <div class="article-row">
+                    <div class="article-grid">
+                        <div class="article-box-subtitle">
+                            <div class="article-subtitle">Money</div>
+                        </div>
+                        <div class="article-asset">
+                            <img class="lozad fade"
+                                src="https://asset.kompas.com/crops/9y-RpMXe3ZzWokiW5o9fL2orii8=/0x0:4500x3000/230x153/data/photo/2019/07/01/3009845350.jpg">
+                        </div>
+                        <div class="article-box">
+                            <h3 class="article-title">
+                                <a class="article-link">
+                                    Tumbuh Pesat di Tengah Pandemi, Investor Ritel Pasar Modal Capai 4,16 Juta
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="title clearfix">
+                <h2 class="title-content">Berita Terkini</h2>
+                <a class="button-title right">Lihat Semua</a>
+            </div>
+            <!-- Latest Section -->
+            <div class="latest-section">
+                <!-- Article List -->
+                <div class="article-list">
+                    <div class="article-list-asset clearfix">
+                        <div class="article-asset">
+                            <a>
+                                <img class="lozad fade"
+                                    src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article-list-title">
+                        <h3 class="article-title article-title_medium">
+                            <a class="article__link"
+                                href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                Terendus</a>
+                        </h3>
+                    </div>
+                    <div class="article-list-info">
+                        <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                        <div class="article-date">22/10/2020, 12:15 WIB</div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- Article List -->
+                <div class="article-list">
+                    <div class="article-list-asset clearfix">
+                        <div class="article-asset">
+                            <a>
+                                <img class="lozad fade"
+                                    src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article-list-title">
+                        <h3 class="article-title article-title_medium">
+                            <a class="article__link"
+                                href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                Terendus</a>
+                        </h3>
+                    </div>
+                    <div class="article-list-info">
+                        <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                        <div class="article-date">22/10/2020, 12:15 WIB</div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- Article List -->
+                <div class="article-list">
+                    <div class="article-list-asset clearfix">
+                        <div class="article-asset">
+                            <a>
+                                <img class="lozad fade"
+                                    src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article-list-title">
+                        <h3 class="article-title article-title_medium">
+                            <a class="article__link"
+                                href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                Terendus</a>
+                        </h3>
+                    </div>
+                    <div class="article-list-info">
+                        <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                        <div class="article-date">22/10/2020, 12:15 WIB</div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- Article List -->
+                <div class="article-list">
+                    <div class="article-list-asset clearfix">
+                        <div class="article-asset">
+                            <a>
+                                <img class="lozad fade"
+                                    src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article-list-title">
+                        <h3 class="article-title article-title_medium">
+                            <a class="article__link"
+                                href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                Terendus</a>
+                        </h3>
+                    </div>
+                    <div class="article-list-info">
+                        <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                        <div class="article-date">22/10/2020, 12:15 WIB</div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <!-- Embed Section -->
+            <div class="embed-section">
+                <iframe class="video" src="https://www.youtube.com/embed/papuvlVeZg8" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <!-- Latest Section -->
+            <div class="latest-section">
+                <!-- Article List -->
+                <div class="article-list">
+                    <div class="article-list-asset clearfix">
+                        <div class="article-asset">
+                            <a>
+                                <img class="lozad fade"
+                                    src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article-list-title">
+                        <h3 class="article-title article-title_medium">
+                            <a class="article__link"
+                                href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                Terendus</a>
+                        </h3>
+                    </div>
+                    <div class="article-list-info">
+                        <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                        <div class="article-date">22/10/2020, 12:15 WIB</div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- Article List -->
+                <div class="article-list">
+                    <div class="article-list-asset clearfix">
+                        <div class="article-asset">
+                            <a>
+                                <img class="lozad fade"
+                                    src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article-list-title">
+                        <h3 class="article-title article-title_medium">
+                            <a class="article__link"
+                                href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                Terendus</a>
+                        </h3>
+                    </div>
+                    <div class="article-list-info">
+                        <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                        <div class="article-date">22/10/2020, 12:15 WIB</div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- Article List -->
+                <div class="article-list">
+                    <div class="article-list-asset clearfix">
+                        <div class="article-asset">
+                            <a>
+                                <img class="lozad fade"
+                                    src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article-list-title">
+                        <h3 class="article-title article-title_medium">
+                            <a class="article__link"
+                                href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                Terendus</a>
+                        </h3>
+                    </div>
+                    <div class="article-list-info">
+                        <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                        <div class="article-date">22/10/2020, 12:15 WIB</div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div id="highlight-side-section" class="row-item">
+            <div class="title title_center">
+                <h2 class="title-content">Kompas.id</h2>
+            </div>
+            <div class="kompas clearfix margin-top-20px">
+                <div class="article-grid">
+                    <div class="article-box-subtitle article-box-subtitle-kompas">
+                        <div class="article-subtitle">
+                            Premium
+                        </div>
+                    </div>
+                    <div class="article-asset article-asset-kompas">
+                        <div class="article-link">
+                            <img style="max-height: 200px" class="lozad fade"
+                                data-src="https://assets-kompas-id.azureedge.net/public/image/promo/promo-kompas-com-epaper-kompas-id-300x200.jpg"
+                                alt="Semakin Paham dengan ePaper Kompas GRATIS" style="max-height: 200px;"
+                                data-gtm-vis-has-fired-2485677_599="1"
+                                src="https://assets-kompas-id.azureedge.net/public/image/promo/promo-kompas-com-epaper-kompas-id-300x200.jpg"
+                                data-loaded="true" data-gtm-vis-first-on-screen-2485677_727="796768"
+                                data-gtm-vis-total-visible-time-2485677_727="100"
+                                data-gtm-vis-has-fired-2485677_727="1">
+                        </div>
+                    </div>
+                    <h4 class="article-title article-title-kompas">
+                        <a class="article-link">
+                            Semakin Paham dengan ePaper Kompas GRATIS
+                        </a>
+                    </h4>
+                    <div class="article-footnote">
+                        Baca selengkapnya di Kompas.id. Dapatkan akses penuh berita Kompas.id dengan berlangganan.
+                    </div>
+                </div>
+            </div>
+            <div class="margin-top-10px clearfix">
+                <div class="margin-top-20px clearfix"></div>
+            </div>
+            <!-- TERPOPULER -->
+            <div class="title title_center">
+                <h2 class="title-content">Terpopuler</h2>
+            </div>
+            <div class="most-wrap">
+                <div class="most-list clearfix">
+                    <div class="most-count">1</div>
+                    <a class="most-link" href="https://www.kompas.com/">
+                        <h4 class="most-title">Target Penerima BLT UMKM 12 Juta, Simak Syarat dan Cara Daftarnya...</h4>
+                        <div class="most-read">Dibaca 72.803 kali</div>
+                    </a>
+                </div>
+                <div class="most-list clearfix">
+                    <div class="most-count">2</div>
+                    <a class="most-link" href="https://www.kompas.com/">
+                        <h4 class="most-title">Target Penerima BLT UMKM 12 Juta, Simak Syarat dan Cara Daftarnya...</h4>
+                        <div class="most-read">Dibaca 72.803 kali</div>
+                    </a>
+                </div>
+                <div class="most-list clearfix">
+                    <div class="most-count">3</div>
+                    <a class="most-link" href="https://www.kompas.com/">
+                        <h4 class="most-title">Target Penerima BLT UMKM 12 Juta, Simak Syarat dan Cara Daftarnya...</h4>
+                        <div class="most-read">Dibaca 72.803 kali</div>
+                    </a>
+                </div>
+                <div class="most-list clearfix">
+                    <div class="most-count">4</div>
+                    <a class="most-link" href="https://www.kompas.com/">
+                        <h4 class="most-title">Target Penerima BLT UMKM 12 Juta, Simak Syarat dan Cara Daftarnya...</h4>
+                        <div class="most-read">Dibaca 72.803 kali</div>
+                    </a>
+                </div>
+                <div class="most-list clearfix">
+                    <div class="most-count">5</div>
+                    <a class="most-link" href="https://www.kompas.com/">
+                        <h4 class="most-title">Target Penerima BLT UMKM 12 Juta, Simak Syarat dan Cara Daftarnya...</h4>
+                        <div class="most-read">Dibaca 72.803 kali</div>
+                    </a>
+                </div>
+                <div class="most-list clearfix">
+                    <div class="most-count">6</div>
+                    <a class="most-link" href="https://www.kompas.com/">
+                        <h4 class="most-title">Target Penerima BLT UMKM 12 Juta, Simak Syarat dan Cara Daftarnya...</h4>
+                        <div class="most-read">Dibaca 72.803 kali</div>
+                    </a>
+                </div>
+                <div class="most-list clearfix">
+                    <div class="most-count">7</div>
+                    <a class="most-link" href="https://www.kompas.com/">
+                        <h4 class="most-title">Target Penerima BLT UMKM 12 Juta, Simak Syarat dan Cara Daftarnya...</h4>
+                        <div class="most-read">Dibaca 72.803 kali</div>
+                    </a>
+                </div>
+                <div class="most-list clearfix">
+                    <div class="most-count">7</div>
+                    <a class="most-link" href="https://www.kompas.com/">
+                        <h4 class="most-title">Target Penerima BLT UMKM 12 Juta, Simak Syarat dan Cara Daftarnya...</h4>
+                        <div class="most-read">Dibaca 72.803 kali</div>
+                    </a>
+                </div>
+                <div class="most-list clearfix">
+                    <div class="most-count">9</div>
+                    <a class="most-link" href="https://www.kompas.com/">
+                        <h4 class="most-title">Target Penerima BLT UMKM 12 Juta, Simak Syarat dan Cara Daftarnya...</h4>
+                        <div class="most-read">Dibaca 72.803 kali</div>
+                    </a>
+                </div>
+                <div class="most-list clearfix">
+                    <div class="most-count">10</div>
+                    <a class="most-link" href="https://www.kompas.com/">
+                        <h4 class="most-title">Target Penerima BLT UMKM 12 Juta, Simak Syarat dan Cara Daftarnya...</h4>
+                        <div class="most-read">Dibaca 72.803 kali</div>
+                    </a>
+                </div>
+            </div>
+            <!-- KILAS -->
+            <div class="title title_center">
+                <h2 class="title-content">KILAS</h2>
+            </div>
+            <div class="topic-wrap margin-top-20px clearfix">
+                <div class="article-grid">
+                    <divc class="article-asset">
+                        <a href>
+                            <img
+                                src="https://asset.kompas.com/crops/L_J0XLqHPo0Ss7AtuTZfb0g6KYc=/0x0:1280x853/300x150/left/data/photo/2020/10/26/5f96c3f48dbe4.jpg">
+                        </a>
+                </div>
+                <div class="article-box article-box-offset-0">
+                    <div class="article-list-item">
+                        <h4 class="article-title article-title-bullet">
+                            <a class="article-link">1 Tahun Kabinet Indonesia Maju, Pertanian Sumbang Pertumbuhan
+                                Ekonomi Tertinggi</a>
+                        </h4>
+                    </div>
+                    <div class="article-list-item">
+                        <h4 class="article-title article-title-bullet">
+                            <a class="article-link">Antisipasi Badai La Lina, Kementan Siapkan 7 Strategi</a>
+                        </h4>
+                    </div>
+                    <div class="article-list-item">
+                        <h4 class="article-title article-title-bullet">
+                            <a class="article-link">Kominfo Sorot Praktik Politik Uang dan Identitas pada Pilkada
+                                2020</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="break-row">
+        <div class="middle-container reset-padding">
+            <div class="break-row-wrap flex margin-top-20px">
+                <div class="break-row-item">
+                    <div class="article-grid">
+                        <div class="article-partner">
+                            <img src="https://asset.kompas.com/data/2017/wp/images/logo-kompasiana.png">
+                        </div>
+                        <div class="article-asset article-asset-highlight"
+                            style="background-image:url(https://assets.kompasiana.com/items/album/2020/10/27/3847661936-5f977543d541df5012087362.jpg?t=o&v=245&x=163);">
+                            <a>
+                                <div>
+                                    <img>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="article-box">
+                            <h4 class="article-title">
+                                <a class="article-link">Hati-hati Setor Angsuran kepada Petugas Penagihan "Palsu"</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="break-row-item">
+                    <div class="article-grid">
+                        <div class="article-partner">
+                            <img src="https://asset.kompas.com/data/2017/wp/images/logo-kompasiana.png">
+                        </div>
+                        <div class="article-asset article-asset-highlight"
+                            style="background-image:url(https://assets.kompasiana.com/items/album/2020/10/27/3847661936-5f977543d541df5012087362.jpg?t=o&v=245&x=163);">
+                            <a>
+                                <div>
+                                    <img>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="article-box">
+                            <h4 class="article-title">
+                                <a class="article-link">Hati-hati Setor Angsuran kepada Petugas Penagihan "Palsu"</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="break-row-item">
+                    <div class="article-grid">
+                        <div class="article-partner">
+                            <img src="https://asset.kompas.com/data/2017/wp/images/logo-kompasiana.png">
+                        </div>
+                        <div class="article-asset article-asset-highlight"
+                            style="background-image:url(https://assets.kompasiana.com/items/album/2020/10/27/3847661936-5f977543d541df5012087362.jpg?t=o&v=245&x=163);">
+                            <a>
+                                <div>
+                                    <img>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="article-box">
+                            <h4 class="article-title">
+                                <a class="article-link">Hati-hati Setor Angsuran kepada Petugas Penagihan "Palsu"</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="break-row-item">
+                    <div class="article-grid">
+                        <div class="article-partner">
+                            <img src="https://asset.kompas.com/data/2017/wp/images/logo-kompasiana.png">
+                        </div>
+                        <div class="article-asset article-asset-highlight"
+                            style="background-image:url(https://assets.kompasiana.com/items/album/2020/10/27/3847661936-5f977543d541df5012087362.jpg?t=o&v=245&x=163);">
+                            <a>
+                                <div>
+                                    <img>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="article-box">
+                            <h4 class="article-title">
+                                <a class="article-link">Hati-hati Setor Angsuran kepada Petugas Penagihan "Palsu"</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="latest">
+        <div class="middle-container">
+            <div class="highlight-row flex">
+                <div class="highlight-section">
+                    <div class="title clearfix">
+                        <h2 class="title-content">Berita Terkini</h2>
+                    </div>
+                    <div class="latest-section">
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="latest-section">
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- video youtube -->
+                        <div class="latest ga--video margin-top-20px clearfix">
+                            <div class="article-list article-list-video clearfix">
+                                <div class="article-list-asset clearfix">
+                                    <iframe width="100%" height="320" src="https://www.youtube.com/embed/fTY9GU6VVUc"
+                                        scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+                                </div>
+                                <div class="article-list-title">
+                                    <h3 class="article-title article-title_medium"><a class="article-link"
+                                            href="https://www.kompas.tv/article/126079/perbedaan-pernyataan-satgas-covid-19-dan-epidemiolog-ui-soal-klaster-petamburan?utm_source=Kompascom&amp;utm_medium=web&amp;utm_campaign=partner">Perbedaan
+                                            Pernyataan Satgas Covid-19 dan Epidemiolog UI Soal Klaster Petamburan</a>
+                                    </h3>
+                                </div>
+                                <div class="article-list-info">
+                                    <div class="article-time">
+                                        <svg class="icon icon-time" title="icon-time">
+                                            <use xlink:href="#icon-time"></use>
+                                        </svg>00:09:21 </div>
+                                    <div class="article-date">25/11/2020, 04:35 WIB</div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="highlight-side-section" class="margin-top-20px offset-left-right-padding-15px">
+                    <div class="hoax-sidebar">
+                        HOAKS
+                    </div>
+                    <div class="title title_center clearfix">
+                        <h2 class="title-content">KOLOM</h2>
+                    </div>
+                    <div class="opinion-wrap margin-top-20px">
+                        <div class="opinion-list clearfix">
+                            <div class="opinion-asset opinion-pull-left">
+                                <img class="lozad fade"
+                                    data-src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    alt="Jaya Suprana"
+                                    src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    data-loaded="true">
+                            </div>
+                            <div class="opinion-author">
+                                <a class="opinion-link">
+                                    Jaya Suprana
+                                </a>
+                            </div>
+                            <div class="opinion-authortitle">Pendiri Sanggar Pembelajaran Kemanusiaan</div>
+                            <h4 class="opinion-title">
+                                <a class="opinion-link">Kontemplasi Kombinatorika</a>
+                            </h4>
+                        </div>
+                        <div class="opinion-list clearfix">
+                            <div class="opinion-asset opinion-pull-left">
+                                <img class="lozad fade"
+                                    data-src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    alt="Jaya Suprana"
+                                    src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    data-loaded="true">
+                            </div>
+                            <div class="opinion-author">
+                                <a class="opinion-link">
+                                    Jaya Suprana
+                                </a>
+                            </div>
+                            <div class="opinion-authortitle">Pendiri Sanggar Pembelajaran Kemanusiaan</div>
+                            <h4 class="opinion-title">
+                                <a class="opinion-link">Kontemplasi Kombinatorika</a>
+                            </h4>
+                        </div>
+                        <div class="opinion-list clearfix">
+                            <div class="opinion-asset opinion-pull-left">
+                                <img class="lozad fade"
+                                    data-src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    alt="Jaya Suprana"
+                                    src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    data-loaded="true">
+                            </div>
+                            <div class="opinion-author">
+                                <a class="opinion-link">
+                                    Jaya Suprana
+                                </a>
+                            </div>
+                            <div class="opinion-authortitle">Pendiri Sanggar Pembelajaran Kemanusiaan</div>
+                            <h4 class="opinion-title">
+                                <a class="opinion-link">Kontemplasi Kombinatorika</a>
+                            </h4>
+                        </div>
+                        <div class="opinion-list clearfix">
+                            <div class="opinion-asset opinion-pull-left">
+                                <img class="lozad fade"
+                                    data-src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    alt="Jaya Suprana"
+                                    src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    data-loaded="true">
+                            </div>
+                            <div class="opinion-author">
+                                <a class="opinion-link">
+                                    Jaya Suprana
+                                </a>
+                            </div>
+                            <div class="opinion-authortitle">Pendiri Sanggar Pembelajaran Kemanusiaan</div>
+                            <h4 class="opinion-title">
+                                <a class="opinion-link">Kontemplasi Kombinatorika</a>
+                            </h4>
+                        </div>
+                        <div class="opinion-list clearfix">
+                            <div class="opinion-asset opinion-pull-left">
+                                <img class="lozad fade"
+                                    data-src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    alt="Jaya Suprana"
+                                    src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    data-loaded="true">
+                            </div>
+                            <div class="opinion-author">
+                                <a class="opinion-link">
+                                    Jaya Suprana
+                                </a>
+                            </div>
+                            <div class="opinion-authortitle">Pendiri Sanggar Pembelajaran Kemanusiaan</div>
+                            <h4 class="opinion-title">
+                                <a class="opinion-link">Kontemplasi Kombinatorika</a>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="title title_center clearfix">
+                        <h2 class="title-content">KOMENTAR</h2>
+                    </div>
+                    <div class="comment-box clearfix">
+                        <div class="comment-item clearfix">
+                            <a href="https://regional.kompas.com/read/2020/11/24/06232641/warga-tolak-penertiban-baliho-rizieq-shihab-satpol-pp-mereka-minta-dipasang"
+                                class="comment-link">
+                                <div class="comment-news">
+                                    <div class="comment-image"><img
+                                            src="https://asset.kompas.com/crops/TTIG1NuC4PO-btN2TCFn6-Jaq_c=/0x0:0x0/70x70/data/photo/2020/11/23/5fbbb7a44d981.jpg">
+                                    </div>
+                                    <h4>Warga Tolak Penertiban Baliho Rizieq Shihab, Satpol PP: Mereka Minta Dipasang
+                                        Kembali
+                                    </h4>
+                                    <span>REGIONAL - 24-11-2020</span>
+                                </div>
+                            </a>
+                            <a href="https://regional.kompas.com/komentar/2020/11/24/06232641/warga-tolak-penertiban-baliho-rizieq-shihab-satpol-pp-mereka-minta-dipasang?comment_id=480523&amp;_ga=2.159136762.1535268374.1606214046-1888169883.1596029483"
+                                class="comment-link">
+                                <div class="comment-text">
+                                    <div class="comment-username">rama aldian</div> nabi aja ga mau sampai gambar
+                                    wajahnya di buat karna beliau takut sampai umatnya melebihi...
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="break-row">
+        <div class="middle-container">
+            <div class="offset-left-right-padding-15px">
+                <div class="title clearfix">
+                    <a>
+                        <img class="lozad fade" data-src="https://asset.kompas.com/data/2017/wp/images/logo-vik.png"
+                            alt="vik" src="https://asset.kompas.com/data/2017/wp/images/logo-vik.png"
+                            data-loaded="true">
+                    </a>
+                </div>
+                <div class="break-row-wrap flex margin-top-20px reduce-left-right">
+                    <div class="break-row-item">
+                        <div class="article-grid">
+                            <div class="article-asset article-asset-highlight"
+                                style="background-image:url(https://assets.kompasiana.com/items/album/2020/10/27/3847661936-5f977543d541df5012087362.jpg?t=o&amp;v=245&amp;x=163);">
+                                <a>
+                                    <div>
+                                        <img>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="article-box">
+                                <h4 class="article-title">
+                                    <a class="article-link">Hati-hati Setor Angsuran kepada Petugas Penagihan
+                                        "Palsu"</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="break-row-item">
+                        <div class="article-grid">
+                            <div class="article-asset article-asset-highlight"
+                                style="background-image:url(https://assets.kompasiana.com/items/album/2020/10/27/3847661936-5f977543d541df5012087362.jpg?t=o&amp;v=245&amp;x=163);">
+                                <a>
+                                    <div>
+                                        <img>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="article-box">
+                                <h4 class="article-title">
+                                    <a class="article-link">Hati-hati Setor Angsuran kepada Petugas Penagihan
+                                        "Palsu"</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="break-row-item">
+                        <div class="article-grid">
+                            <div class="article-asset article-asset-highlight"
+                                style="background-image:url(https://assets.kompasiana.com/items/album/2020/10/27/3847661936-5f977543d541df5012087362.jpg?t=o&amp;v=245&amp;x=163);">
+                                <a>
+                                    <div>
+                                        <img>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="article-box">
+                                <h4 class="article-title">
+                                    <a class="article-link">Hati-hati Setor Angsuran kepada Petugas Penagihan
+                                        "Palsu"</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="break-row-item">
+                        <div class="article-grid">
+                            <div class="article-asset article-asset-highlight"
+                                style="background-image:url(https://assets.kompasiana.com/items/album/2020/10/27/3847661936-5f977543d541df5012087362.jpg?t=o&amp;v=245&amp;x=163);">
+                                <a>
+                                    <div>
+                                        <img>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="article-box">
+                                <h4 class="article-title">
+                                    <a class="article-link">Hati-hati Setor Angsuran kepada Petugas Penagihan
+                                        "Palsu"</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="latest">
+        <div class="middle-container">
+            <div class="highlight-row flex">
+                <div class="highlight-section">
+                    <div class="title clearfix">
+                        <h2 class="title-content">Berita Terkini</h2>
+                    </div>
+                    <div class="latest-section">
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="latest-section">
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- Image slides -->
+                        <div class='photo-lens chosen-photo clearfix'>
+                            <div class='title clearfix title_clean'>
+                                <h2 class='title-content'>
+                                    Images
+                                </h2>
+                            </div>
+                            <div class='article-photo-wrap clearfix'>
+                                <div class='row clearfix js-photo-wp'>
+                                    <div class='article-grid'>
+                                        <div class='article-asset'>
+                                            <a href="https://foto.kompas.com/video/read/2020/11/30/ed7c16067177465ca6a812/beginu.3.bukan.begini.bukan.begitu.soimah.tanpa.citacita.tapi.sukses.berkarya"
+                                                tabindex="-1"><span
+                                                    class="icon-play video__button__play__item"></span><img
+                                                    class="lozad fade"
+                                                    data-src="https://img.youtube.com/vi/8fDu_3lDZEk/0.jpg"
+                                                    alt="[BEGINU #3] Bukan Begini, Bukan Begitu: Soimah, Tanpa Cita-cita tapi Sukses Berkarya"
+                                                    src="https://img.youtube.com/vi/8fDu_3lDZEk/0.jpg"
+                                                    data-loaded="true"></a>
+                                        </div>
+                                        <div class='article-box article-box_big'>
+                                            <h4 class='article-title article-title_big'>
+                                                <a class="article__link"
+                                                    href="https://foto.kompas.com/video/read/2020/11/30/ed7c16067177465ca6a812/beginu.3.bukan.begini.bukan.begitu.soimah.tanpa.citacita.tapi.sukses.berkarya"
+                                                    tabindex="-1">[BEGINU #3] Bukan Begini, Bukan Begitu: Soimah, Tanpa
+                                                    Cita-cita tapi Sukses Berkarya</a>
+                                            </h4>
+                                            <div class="article-photo-count">00:56:20</div>
+                                        </div>
+                                    </div>
+                                    <div class='article-grid'>
+                                        <div class='article-asset'>
+                                            <a href="https://foto.kompas.com/video/read/2020/11/30/ed7c16067177465ca6a812/beginu.3.bukan.begini.bukan.begitu.soimah.tanpa.citacita.tapi.sukses.berkarya"
+                                                tabindex="-1"><span
+                                                    class="icon-play video__button__play__item"></span><img
+                                                    class="lozad fade"
+                                                    data-src="https://img.youtube.com/vi/8fDu_3lDZEk/0.jpg"
+                                                    alt="[BEGINU #3] Bukan Begini, Bukan Begitu: Soimah, Tanpa Cita-cita tapi Sukses Berkarya"
+                                                    src="https://img.youtube.com/vi/8fDu_3lDZEk/0.jpg"
+                                                    data-loaded="true"></a>
+                                        </div>
+                                        <div class='article-box article-box_big'>
+                                            <h4 class='article-title article-title_big'>
+                                                <a class="article__link"
+                                                    href="https://foto.kompas.com/video/read/2020/11/30/ed7c16067177465ca6a812/beginu.3.bukan.begini.bukan.begitu.soimah.tanpa.citacita.tapi.sukses.berkarya"
+                                                    tabindex="-1">[BEGINU #3] Bukan Begini, Bukan Begitu: Soimah, Tanpa
+                                                    Cita-cita tapi Sukses Berkarya</a>
+                                            </h4>
+                                            <div class="article-photo-count">00:56:20</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- Article List -->
+                        <div class="article-list">
+                            <div class="article-list-asset clearfix">
+                                <div class="article-asset">
+                                    <a>
+                                        <img class="lozad fade"
+                                            src="https://asset.kompas.com/crops/iVtRm4Ru8KPY4OLJxwhh840u1Ec=/175x103:1262x828/177x117/data/photo/2020/10/01/5f75830cf10c7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="article-list-title">
+                                <h3 class="article-title article-title_medium">
+                                    <a class="article__link"
+                                        href="https://www.kompas.com/hype/read/2020/10/22/121520666/sinopsis-pinocchio-episode-16-hubungan-in-ha-dan-dal-po-mulai-terendus"
+                                        target="_parent">Sinopsis Pinocchio Episode 16, Hubungan In Ha dan Dal Po Mulai
+                                        Terendus</a>
+                                </h3>
+                            </div>
+                            <div class="article-list-info">
+                                <div class="article-subtitle article-subtitle_inline">HYPE</div>
+                                <div class="article-date">22/10/2020, 12:15 WIB</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- video youtube -->
+                        <div class="latest ga--video margin-top-20px clearfix">
+                            <div class="article-list article-list-video clearfix">
+                                <div class="article-list-asset clearfix">
+                                    <iframe width="100%" height="320" src="https://www.youtube.com/embed/fTY9GU6VVUc"
+                                        scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+                                </div>
+                                <div class="article-list-title">
+                                    <h3 class="article-title article-title_medium"><a class="article-link"
+                                            href="https://www.kompas.tv/article/126079/perbedaan-pernyataan-satgas-covid-19-dan-epidemiolog-ui-soal-klaster-petamburan?utm_source=Kompascom&amp;utm_medium=web&amp;utm_campaign=partner">Perbedaan
+                                            Pernyataan Satgas Covid-19 dan Epidemiolog UI Soal Klaster Petamburan</a>
+                                    </h3>
+                                </div>
+                                <div class="article-list-info">
+                                    <div class="article-time">
+                                        <svg class="icon icon-time" title="icon-time">
+                                            <use xlink:href="#icon-time"></use>
+                                        </svg>00:09:21 </div>
+                                    <div class="article-date">25/11/2020, 04:35 WIB</div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="highlight-side-section" class="margin-top-20px offset-left-right-padding-15px">
+                    <div class="hoax-sidebar">
+                        HOAKS
+                    </div>
+                    <div class="title title_center clearfix">
+                        <h2 class="title-content">KOLOM</h2>
+                    </div>
+                    <div class="opinion-wrap margin-top-20px">
+                        <div class="opinion-list clearfix">
+                            <div class="opinion-asset opinion-pull-left">
+                                <img class="lozad fade"
+                                    data-src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    alt="Jaya Suprana"
+                                    src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    data-loaded="true">
+                            </div>
+                            <div class="opinion-author">
+                                <a class="opinion-link">
+                                    Jaya Suprana
+                                </a>
+                            </div>
+                            <div class="opinion-authortitle">Pendiri Sanggar Pembelajaran Kemanusiaan</div>
+                            <h4 class="opinion-title">
+                                <a class="opinion-link">Kontemplasi Kombinatorika</a>
+                            </h4>
+                        </div>
+                        <div class="opinion-list clearfix">
+                            <div class="opinion-asset opinion-pull-left">
+                                <img class="lozad fade"
+                                    data-src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    alt="Jaya Suprana"
+                                    src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    data-loaded="true">
+                            </div>
+                            <div class="opinion-author">
+                                <a class="opinion-link">
+                                    Jaya Suprana
+                                </a>
+                            </div>
+                            <div class="opinion-authortitle">Pendiri Sanggar Pembelajaran Kemanusiaan</div>
+                            <h4 class="opinion-title">
+                                <a class="opinion-link">Kontemplasi Kombinatorika</a>
+                            </h4>
+                        </div>
+                        <div class="opinion-list clearfix">
+                            <div class="opinion-asset opinion-pull-left">
+                                <img class="lozad fade"
+                                    data-src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    alt="Jaya Suprana"
+                                    src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    data-loaded="true">
+                            </div>
+                            <div class="opinion-author">
+                                <a class="opinion-link">
+                                    Jaya Suprana
+                                </a>
+                            </div>
+                            <div class="opinion-authortitle">Pendiri Sanggar Pembelajaran Kemanusiaan</div>
+                            <h4 class="opinion-title">
+                                <a class="opinion-link">Kontemplasi Kombinatorika</a>
+                            </h4>
+                        </div>
+                        <div class="opinion-list clearfix">
+                            <div class="opinion-asset opinion-pull-left">
+                                <img class="lozad fade"
+                                    data-src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    alt="Jaya Suprana"
+                                    src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    data-loaded="true">
+                            </div>
+                            <div class="opinion-author">
+                                <a class="opinion-link">
+                                    Jaya Suprana
+                                </a>
+                            </div>
+                            <div class="opinion-authortitle">Pendiri Sanggar Pembelajaran Kemanusiaan</div>
+                            <h4 class="opinion-title">
+                                <a class="opinion-link">Kontemplasi Kombinatorika</a>
+                            </h4>
+                        </div>
+                        <div class="opinion-list clearfix">
+                            <div class="opinion-asset opinion-pull-left">
+                                <img class="lozad fade"
+                                    data-src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    alt="Jaya Suprana"
+                                    src="https://asset.kompas.com/crops/16dNh3J9sBswrzDdO4Dsdpj-YgM=/0x0:0x0/100x100/left/data/photo/profile/5e799dbf0c85a.jpg"
+                                    data-loaded="true">
+                            </div>
+                            <div class="opinion-author">
+                                <a class="opinion-link">
+                                    Jaya Suprana
+                                </a>
+                            </div>
+                            <div class="opinion-authortitle">Pendiri Sanggar Pembelajaran Kemanusiaan</div>
+                            <h4 class="opinion-title">
+                                <a class="opinion-link">Kontemplasi Kombinatorika</a>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="title title_center clearfix">
+                        <h2 class="title-content">KOMENTAR</h2>
+                    </div>
+                    <div class="comment-box clearfix">
+                        <div class="comment-item clearfix">
+                            <a href="https://regional.kompas.com/read/2020/11/24/06232641/warga-tolak-penertiban-baliho-rizieq-shihab-satpol-pp-mereka-minta-dipasang"
+                                class="comment-link">
+                                <div class="comment-news">
+                                    <div class="comment-image"><img
+                                            src="https://asset.kompas.com/crops/TTIG1NuC4PO-btN2TCFn6-Jaq_c=/0x0:0x0/70x70/data/photo/2020/11/23/5fbbb7a44d981.jpg">
+                                    </div>
+                                    <h4>Warga Tolak Penertiban Baliho Rizieq Shihab, Satpol PP: Mereka Minta Dipasang
+                                        Kembali
+                                    </h4>
+                                    <span>REGIONAL - 24-11-2020</span>
+                                </div>
+                            </a>
+                            <a href="https://regional.kompas.com/komentar/2020/11/24/06232641/warga-tolak-penertiban-baliho-rizieq-shihab-satpol-pp-mereka-minta-dipasang?comment_id=480523&amp;_ga=2.159136762.1535268374.1606214046-1888169883.1596029483"
+                                class="comment-link">
+                                <div class="comment-text">
+                                    <div class="comment-username">rama aldian</div> nabi aja ga mau sampai gambar
+                                    wajahnya di buat karna beliau takut sampai umatnya melebihi...
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="explore">
+        <div class="middle-container">
+            EXPLORE
+        </div>
+    </div>
+    <div id="footer">
+        <div class="middle-container">
+            FOOTER
+        </div>
+    </div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.6.0/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+
 </html>
