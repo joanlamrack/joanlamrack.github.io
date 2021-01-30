@@ -9,6 +9,16 @@ $(document).ready(function(){
         cssEase: "ease",
         asNavFor: ".js-hl-thumb"
     }),
+    $(".js-gramedia").slick({
+        autoplay: !0,
+        slidesToShow: 1,
+        autoplaySpeed: 1e4,
+        pauseOnFocus: !0,
+        fade: !0,
+        dots: !0,
+        arrows: !1,
+        cssEase: "ease" 
+    }),
     $(".js-hl-thumb").slick({
         asNavFor: ".js-hl-big",
         slidesToShow: 4,
