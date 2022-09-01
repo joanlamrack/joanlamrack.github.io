@@ -1,0 +1,84 @@
+#jobslistingtitle {
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+#joblisting {
+    column-count: auto;
+    column-width: 30em;
+    column-gap: 2px;
+}
+
+#joblisting > #jobsitem {
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    margin: 5px;
+}
+
+#joblisting > #jobsitem > #url {
+    background-color: #fa7b05;
+    flex: 1;
+    text-align: center;
+    opacity: 0;
+    display: flex;
+}
+
+#joblisting > #jobsitem:hover #url {
+    opacity: 1;
+}
+
+#joblisting > #jobsitem > #showtext {
+    background-color: #fa7b05;
+    flex: 1;
+    text-align: center;
+    opacity: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+}
+
+#showtext > a {
+    flex: 1;
+    margin: auto;
+}
+
+#joblisting > #jobsitem:hover #showtext {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#sidelink {
+    margin: auto;
+}
+
+#url {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#jobsitem > #titleandtime {
+    width: 70%;
+    padding: 5px;
+    flex: 0 0 90%;
+}
+
+#jobsitem > #titleandtime > #title {
+    color:#151f2e;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#jobsitem > #titleandtime > #time {
+    color: #9aa19c;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#text > p {
+    color: #616362;
+}
+
+#text {
+    display: none;
+}
